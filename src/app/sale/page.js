@@ -130,7 +130,7 @@ const ProductSection = () => {
   const [selectedColor, setSelectedColor] = useState(null);
 
   const handleProductClick = (id) => {
-    router.push(`/info/${id}`);
+    router.push(`/card/${id}`);
   };
 
   return (
